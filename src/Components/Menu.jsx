@@ -29,7 +29,7 @@ function Menu() {
                             <img src={item.image} alt="" />
                             <p>{item.title}</p>
                             <h3>Rs.{item.price}</h3>
-                            <button onClick={()=>{dispatch}}>
+                            <button >
                                 add to cart
                             </button>
                         </div>
